@@ -1,0 +1,28 @@
+{
+	"name": "nodejs-javascript-template",
+	"version": "1.0.0",
+	"description": "NodeJS javascript application template using express",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "node src/index.js",
+		"build": "",
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Kunal-Vyas/templates.git"
+	},
+	"keywords": [
+		"Templates"
+	],
+	"author": "Kunal.Vyas@quaddimension.ca",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Kunal-Vyas/templates/issues"
+	},
+	"homepage": "https://github.com/Kunal-Vyas/templates#readme",
+	"devDependencies": {},
+	"dependencies": {
+		"express": "^4.17.1"
+	}
+}
