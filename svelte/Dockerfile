@@ -1,7 +1,7 @@
 FROM node:16
 
 # Create app directory
-WORKDIR /usr/src/svelte-template
+WORKDIR /usr/src/svelte
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json

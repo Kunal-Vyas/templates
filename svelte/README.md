@@ -1,11 +1,11 @@
-# Destiny
+# Svelte-template
 
-This is a front end platform for developing web applications written by QuadDimension Technologies. It lives at https://quaddimension.git.beanstalkapp.com/destiny.git.
+This is a front end template for developing web applications written by QuadDimension Technologies. It uses [Svelte](https://svelte.dev/) for SPA development.
 
 To build the code run:
 
 ```bash
-cd destiny
+cd svelte
 npm run build
 ```
 
@@ -16,7 +16,7 @@ npm run build
 Install the dependencies...
 
 ```bash
-cd destiny
+cd svelte
 npm install
 ```
 ...then start [Express](https://expressjs.com):
