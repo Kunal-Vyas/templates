@@ -1,0 +1,40 @@
+{
+  "name": "svelte-template",
+  "version": "1.0.0",
+  "description": "Front end template for developing svelte applications",
+  "main": "server.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "npm run build & node server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kunal-Vyas/templates"
+  },
+  "keywords": [
+    "Front",
+    "End",
+    "Svelte",
+    "Web"
+  ],
+  "author": "QuadDimension Technologies",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "latest",
+    "@rollup/plugin-node-resolve": "latest",
+    "jest": "latest",
+    "page": "latest",
+    "rollup": "latest",
+    "rollup-plugin-css-only": "latest",
+    "rollup-plugin-svelte": "latest",
+    "rollup-plugin-terser": "latest",
+    "svelte": "latest"
+  },
+  "dependencies": {
+    "axios": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "log4js": "latest"
+  }
+}
