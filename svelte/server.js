@@ -9,6 +9,7 @@ require('dotenv').config()
 
 // serve static files
 app.use('/static', express.static(path.join(__dirname, 'public')))
+app.use('/node_modules', express.static(path.join(__dirname, 'node_modules')))
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST body
@@ -21,8 +22,8 @@ app.get('/*', (req, res) => res.sendFile(path.join(__dirname, 'public/index.html
 // define port for application to listen on
 const port = process.env.PORT || 3000
 
-logger.info('Destiny application starting on port: ' + port)
+logger.info('Svelte application starting on port: ' + port)
 
 // start the application server
 app.listen(port,
-  () => console.log(`Destiny started at http://localhost:${port}`))
+  () => console.log(`Svelte started at http://localhost:${port}`))

@@ -23,18 +23,25 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "latest",
     "@rollup/plugin-node-resolve": "latest",
+    "css-loader": "latest",
     "jest": "latest",
     "page": "latest",
     "rollup": "latest",
     "rollup-plugin-css-only": "latest",
     "rollup-plugin-svelte": "latest",
     "rollup-plugin-terser": "latest",
+    "style-loader": "latest",
     "svelte": "latest"
   },
   "dependencies": {
+    "@popperjs/core": "latest",
     "axios": "latest",
+    "bootstrap": "latest",
+    "bootstrap-icons": "latest",
     "dotenv": "latest",
     "express": "latest",
-    "log4js": "latest"
+    "jquery": "latest",
+    "log4js": "latest",
+    "popper.js": "latest"
   }
 }
