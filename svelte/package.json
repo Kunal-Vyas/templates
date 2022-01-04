@@ -28,6 +28,7 @@
     "page": "latest",
     "rollup": "latest",
     "rollup-plugin-css-only": "latest",
+    "rollup-plugin-livereload": "latest",
     "rollup-plugin-svelte": "latest",
     "rollup-plugin-terser": "latest",
     "style-loader": "latest",
