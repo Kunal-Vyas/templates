@@ -5,15 +5,15 @@ log4js.configure({
     console: {
       type: 'stdout'
     },
-    destiny: {
+    template: {
       type: 'file',
       filename:
-      'logs/destiny.log'
+      'logs/template.log'
     }
   },
   categories: {
     default: {
-      appenders: ['console', 'destiny'],
+      appenders: ['console', 'template'],
       level: 'trace'
     }
   }

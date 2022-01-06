@@ -1,5 +1,7 @@
 <script>
 	import router from "page";
+	import Footer from "./shared/footer.svelte";
+	import Header from "./shared/navigation.svelte";
 	import Home from "./user/home.svelte";
 	import Index from "./public/index.svelte";
 	import PageNotFound from "./public/404.svelte";
@@ -24,4 +26,6 @@
 	router.start();
 </script>
 
+<Header/>
 <svelte:component this={page} params={params} />
+<Footer/>
