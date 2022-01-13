@@ -1,3 +1,3 @@
 <div class="container">
-  Page not found!
+  <h2>Page not found!</h2>
 </div>
